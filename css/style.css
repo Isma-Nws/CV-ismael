@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Poppins:wght@300&display=swap");
 
 body {
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: px;
   background-color: #171717;
@@ -54,7 +54,7 @@ main {
 }
 
 .contact p {
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
 }
 
@@ -85,7 +85,7 @@ main {
   margin-bottom: 1em;
 }
 h1 {
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 3.5em;
   color: #673ef1;
@@ -94,7 +94,7 @@ h1 {
 }
 
 h2 {
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 4em;
   align-self: center;
