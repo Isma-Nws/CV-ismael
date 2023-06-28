@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: px;
+  background-color: #171717;
+  color: #fafaff;
+}
+
+header {
+  background-color: #2b2b2b;
+  color: #171717;
+  padding: 2em 10em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul img {
+  width: 10%;
+}
+
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: #fafaff;
+}
+
+main {
+  padding: 5em 10em;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+
+.contact p {
+  font-family: montserrat;
+  font-weight: 800;
+}
+
+.contact .mrgn-btm {
+  margin-bottom: 0.5em;
+}
+
+.prez {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.prez p {
+  line-height: 200%;
+}
+
+.prez img {
+  width: 50%;
+}
+
+.blaze {
+  width: 40%;
+}
+
+.mrgn-btm {
+  margin-bottom: 1em;
+}
+h1 {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 3.5em;
+  color: #673ef1;
+  align-self: center;
+  text-align: left;
+}
+
+h2 {
+  font-family: montserrat;
+  font-weight: 800;
+  font-size: 4em;
+  align-self: center;
+  text-align: left;
+  margin-bottom: 0.8em;
+}
+
+.moi {
+  width: 20rem;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  color: #673ef1;
+  font-size: 25px;
+}
+
+li {
+  font-size: 25px;
+  text-align: start;
+}
+
+.xp-forma {
+  display: flex;
+}
+
+/*formation*/
+.forma {
+  width: 50%;
+}
+.formation {
+  padding: 0 2em;
+}
+/*xp*/
+.xp {
+  width: 50%;
+}
+
+.exp {
+  padding: 0 2em;
+}
+
+.petit {
+  font-size: 15px;
+}
+
+.gras {
+  font-weight: 600;
+}
+
+.grid-xp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+/*compétence*/
+
+.grid-comp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2em;
+}
+
+.skills {
+  justify-self: center;
+}
+
+.grid-comp img {
+  width: 30%;
+}
+
+/*responsive tablette*/
+
+@media (max-width: 950px) {
+  header {
+    padding: 2em;
+  }
+
+  header a {
+    font-size: 25px;
+  }
+
+  main {
+    padding: 2em 5em;
+  }
+
+  .contact {
+    display: block;
+  }
+
+  .moi {
+    width: 10rem;
+  }
+  .prez h2 {
+    font-size: 35px;
+  }
+}
+
+/*reponsive tablette 2*/
+
+@media (max-width: 850px) {
+  header {
+    padding: 2em;
+  }
+
+  header a {
+    font-size: 15px;
+  }
+
+  .contact {
+    display: block;
+  }
+
+  .moi {
+    width: 7rem;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+  .prez h2 {
+    font-size: 25px;
+  }
+
+  .prez p {
+    font-size: 12px;
+  }
+}
+
+/*resp tel*/
+
+@media (max-width: 750px) {
+  .prez {
+    width: 100%;
+    display: block;
+  }
+    h1 {
+    font-size: 50px;
+  }
+  .prez h2 {
+    font-size: 50px;
+  }
+
+  .prez p {
+    font-size: 15px;
+    margin-bottom: 1em;
+  }
+
+  .blaze {
+    width: 100%;
+  }
+
+  .moi {
+    width: 25rem;
+  }
+
+  .xp-forma{
+    display: block;
+  }
+
+  .xp{
+    width: 100%;
+  }
+
+  .forma{
+    width: 100%;
+  }
+
+  .grid-comp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+}
